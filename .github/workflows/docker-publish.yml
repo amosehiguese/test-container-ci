@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: github.com/amosehiguese/api-ci-py/blob/main/.github/workflows/python-app.yml
+    uses: amosehiguese/api-ci-py/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write
